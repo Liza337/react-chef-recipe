@@ -1,0 +1,236 @@
+[
+    {
+        "id": 1,
+        "name": "Keka Ferdousi",
+        "experience": 15,
+        "recipes": 250,
+        "likes": 3200,
+        "picture": "https://i.ibb.co/Qd60RRK/kekaapppa.jpg",
+        "description": "Keka Ferdousi is a renowned chef known for her innovative Bangladeshi recipes and her dedication to preserving traditional flavors. With over 15 years of experience, she has created a vast collection of 250 recipes that are beloved by many.",
+       "recipeDetails": [
+            {
+              "name": "Chicken Curry",
+              "ingredients": ["Chicken", "Onion", "Garlic", "Ginger", "Spices"],
+              "method": "Cook chicken with spices until tender.",
+              "rating": 4.5,
+              "image": "https://i.ibb.co/4MS46Bb/bengali-chicken-curry.jpg"
+            },
+            {
+              "name": "Fish Fry",
+              "ingredients": ["Fish", "Turmeric", "Salt", "Oil", "Chili Powder"],
+              "method": "Fry fish until crispy.",
+              "rating": 4.7,
+              "image": "https://i.ibb.co/ZHSJVQv/final-fish.jpg"
+            },
+            {
+              "name": "Vegetable Korma",
+              "ingredients": ["Mixed Vegetables", "Yogurt", "Spices", "Onion", "Garlic"],
+              "method": "Cook vegetables in a spiced yogurt sauce.",
+              "rating": 4.3,
+              "image": "https://i.ibb.co/zXxC0L4/vegetable-korma-kurma-mixed-vegetable-curry-8.jpg"
+            },
+            {
+                "name": "Beef Biryani",
+                "ingredients": ["Beef", "Rice", "Yogurt", "Spices", "Onion", "Garlic"],
+                "method": "Cook beef with spices, then mix with rice and cook until done.",
+                "rating": 4.8,
+                "image": "https://i.ibb.co/Vm26N60/Bangladeshi-Beef-Biryani.jpg"
+              }
+          ]
+    },
+    {
+        "id": 2,
+        "name": "Tommy Miah",
+        "experience": 12,
+        "recipes": 200,
+        "likes": 2800,
+        "picture": "https://i.ibb.co/Ryqv2gp/Tonmoy.jpg",
+        "description": "Tommy Miah is an acclaimed chef with 12 years of experience in the culinary world. He is known for his exquisite presentation and the unique twist he brings to traditional dishes. His 200 recipes are a testament to his creativity and skill.",
+        "recipeDetails": [
+            {
+              "name": "Chicken Curry",
+              "ingredients": ["Chicken", "Onion", "Garlic", "Ginger", "Spices"],
+              "method": "Cook chicken with spices until tender.",
+              "rating": 4.5,
+              "image": "https://i.ibb.co/4MS46Bb/bengali-chicken-curry.jpg"
+            },
+            {
+              "name": "Fish Fry",
+              "ingredients": ["Fish", "Turmeric", "Salt", "Oil", "Chili Powder"],
+              "method": "Fry fish until crispy.",
+              "rating": 4.7,
+              "image": "https://i.ibb.co/ZHSJVQv/final-fish.jpg"
+            },
+            {
+              "name": "Vegetable Korma",
+              "ingredients": ["Mixed Vegetables", "Yogurt", "Spices", "Onion", "Garlic"],
+              "method": "Cook vegetables in a spiced yogurt sauce.",
+              "rating": 4.3,
+              "image": "https://i.ibb.co/zXxC0L4/vegetable-korma-kurma-mixed-vegetable-curry-8.jpg"
+            },
+            {
+                "name": "Beef Biryani",
+                "ingredients": ["Beef", "Rice", "Yogurt", "Spices", "Onion", "Garlic"],
+                "method": "Cook beef with spices, then mix with rice and cook until done.",
+                "rating": 4.8,
+                "image": "https://i.ibb.co/Vm26N60/Bangladeshi-Beef-Biryani.jpg"
+              }
+          ]
+    },
+    {
+        "id": 3,
+        "name": "Tony Karim",
+        "experience": 10,
+        "recipes": 180,
+        "likes": 2500,
+        "picture": "https://i.ibb.co/R0W12km/tony7755109801519956930.jpg",
+        "description": "Tony Karim, with a decade of experience, has made a name for himself with his delicious and innovative recipes. His 180 recipes reflect his passion for cooking and his ability to blend traditional and modern culinary techniques.",
+        "recipeDetails": [
+            {
+              "name": "Chicken Curry",
+              "ingredients": ["Chicken", "Onion", "Garlic", "Ginger", "Spices"],
+              "method": "Cook chicken with spices until tender.",
+              "rating": 4.5,
+              "image": "https://i.ibb.co/4MS46Bb/bengali-chicken-curry.jpg"
+            },
+            {
+              "name": "Fish Fry",
+              "ingredients": ["Fish", "Turmeric", "Salt", "Oil", "Chili Powder"],
+              "method": "Fry fish until crispy.",
+              "rating": 4.7,
+              "image": "https://i.ibb.co/ZHSJVQv/final-fish.jpg"
+            },
+            {
+              "name": "Vegetable Korma",
+              "ingredients": ["Mixed Vegetables", "Yogurt", "Spices", "Onion", "Garlic"],
+              "method": "Cook vegetables in a spiced yogurt sauce.",
+              "rating": 4.3,
+              "image": "https://i.ibb.co/zXxC0L4/vegetable-korma-kurma-mixed-vegetable-curry-8.jpg"
+            },
+            {
+                "name": "Beef Biryani",
+                "ingredients": ["Beef", "Rice", "Yogurt", "Spices", "Onion", "Garlic"],
+                "method": "Cook beef with spices, then mix with rice and cook until done.",
+                "rating": 4.8,
+                "image": "https://i.ibb.co/Vm26N60/Bangladeshi-Beef-Biryani.jpg"
+              }
+          ]
+    },
+    {
+        "id": 4,
+        "name": "Alpana Habib",
+        "experience": 8,
+        "recipes": 150,
+        "likes": 2100,
+        "picture": "https://i.ibb.co/wrnwHZs/Alpana-habib.jpg",
+        "description": "Alpana Habib is a celebrated chef who has spent 8 years perfecting her craft. Her 150 recipes showcase her talent for creating delightful and memorable dishes that combine the best of Bangladeshi cuisine with contemporary flavors.",
+        "recipeDetails": [
+            {
+              "name": "Chicken Curry",
+              "ingredients": ["Chicken", "Onion", "Garlic", "Ginger", "Spices"],
+              "method": "Cook chicken with spices until tender.",
+              "rating": 4.5,
+              "image": "https://i.ibb.co/4MS46Bb/bengali-chicken-curry.jpg"
+            },
+            {
+              "name": "Fish Fry",
+              "ingredients": ["Fish", "Turmeric", "Salt", "Oil", "Chili Powder"],
+              "method": "Fry fish until crispy.",
+              "rating": 4.7,
+              "image": "https://i.ibb.co/ZHSJVQv/final-fish.jpg"
+            },
+            {
+              "name": "Vegetable Korma",
+              "ingredients": ["Mixed Vegetables", "Yogurt", "Spices", "Onion", "Garlic"],
+              "method": "Cook vegetables in a spiced yogurt sauce.",
+              "rating": 4.3,
+              "image": "https://i.ibb.co/zXxC0L4/vegetable-korma-kurma-mixed-vegetable-curry-8.jpg"
+            },
+            {
+                "name": "Beef Biryani",
+                "ingredients": ["Beef", "Rice", "Yogurt", "Spices", "Onion", "Garlic"],
+                "method": "Cook beef with spices, then mix with rice and cook until done.",
+                "rating": 4.8,
+                "image": "https://i.ibb.co/Vm26N60/Bangladeshi-Beef-Biryani.jpg"
+              }
+          ]
+    },
+    {
+        "id": 5,
+        "name": "Jahed Ahmed",
+        "experience": 7,
+        "recipes": 130,
+        "likes": 1900,
+        "picture": "https://i.ibb.co/h812tzV/Jahed-chef.jpg",
+        "description": "Jahed Ahmed, with 7 years of experience, is known for his culinary innovation and his ability to create delicious, health-conscious meals. His 130 recipes are loved by those who appreciate both taste and nutrition.",
+        "recipeDetails": [
+            {
+              "name": "Chicken Curry",
+              "ingredients": ["Chicken", "Onion", "Garlic", "Ginger", "Spices"],
+              "method": "Cook chicken with spices until tender.",
+              "rating": 4.5,
+              "image": "https://i.ibb.co/4MS46Bb/bengali-chicken-curry.jpg"
+            },
+            {
+              "name": "Fish Fry",
+              "ingredients": ["Fish", "Turmeric", "Salt", "Oil", "Chili Powder"],
+              "method": "Fry fish until crispy.",
+              "rating": 4.7,
+              "image": "https://i.ibb.co/ZHSJVQv/final-fish.jpg"
+            },
+            {
+              "name": "Vegetable Korma",
+              "ingredients": ["Mixed Vegetables", "Yogurt", "Spices", "Onion", "Garlic"],
+              "method": "Cook vegetables in a spiced yogurt sauce.",
+              "rating": 4.3,
+              "image": "https://i.ibb.co/zXxC0L4/vegetable-korma-kurma-mixed-vegetable-curry-8.jpg"
+            },
+            {
+                "name": "Beef Biryani",
+                "ingredients": ["Beef", "Rice", "Yogurt", "Spices", "Onion", "Garlic"],
+                "method": "Cook beef with spices, then mix with rice and cook until done.",
+                "rating": 4.8,
+                "image": "https://i.ibb.co/Vm26N60/Bangladeshi-Beef-Biryani.jpg"
+              }
+          ]
+    },
+    {
+        "id": 6,
+        "name": "Ahmed Hossain",
+        "experience": 15,
+        "recipes": 100,
+        "likes": 1600,
+        "picture": "https://i.ibb.co/GVZMkd5/Ahemd-hossain.jpg",
+        "description": "Ahmed Hossain is a veteran chef with 15 years of experience in the kitchen. His 100 recipes reflect his deep understanding of Bangladeshi cuisine and his commitment to bringing authentic flavors to his audience.",
+        "recipeDetails": [
+            {
+              "name": "Chicken Curry",
+              "ingredients": ["Chicken", "Onion", "Garlic", "Ginger", "Spices"],
+              "method": "Cook chicken with spices until tender.",
+              "rating": 4.5,
+              "image": "https://i.ibb.co/4MS46Bb/bengali-chicken-curry.jpg"
+            },
+            {
+              "name": "Fish Fry",
+              "ingredients": ["Fish", "Turmeric", "Salt", "Oil", "Chili Powder"],
+              "method": "Fry fish until crispy.",
+              "rating": 4.7,
+              "image": "https://i.ibb.co/ZHSJVQv/final-fish.jpg"
+            },
+            {
+              "name": "Vegetable Korma",
+              "ingredients": ["Mixed Vegetables", "Yogurt", "Spices", "Onion", "Garlic"],
+              "method": "Cook vegetables in a spiced yogurt sauce.",
+              "rating": 4.3,
+              "image": "https://i.ibb.co/zXxC0L4/vegetable-korma-kurma-mixed-vegetable-curry-8.jpg"
+            },
+            {
+                "name": "Beef Biryani",
+                "ingredients": ["Beef", "Rice", "Yogurt", "Spices", "Onion", "Garlic"],
+                "method": "Cook beef with spices, then mix with rice and cook until done.",
+                "rating": 4.8,
+                "image": "https://i.ibb.co/Vm26N60/Bangladeshi-Beef-Biryani.jpg"
+              }
+          ]
+    }
+]

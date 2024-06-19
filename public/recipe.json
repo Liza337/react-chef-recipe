@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Bhapa Chingri",
+        "description": "Steamed prawns marinated in a flavorful blend of mustard paste, coconut, and spices, a delicacy from Bengal.",
+        "chefName": "Tommy Miah",
+        "image": "https://i.ibb.co/M7G40TG/chingri-vapa-recip.jpg",
+        "price": 21.99,
+        "rating": 4.7
+    },
+
+    {
+        "name": "Shorshe Ilish",
+        "description": "A traditional Bengali dish made with Hilsa fish marinated in mustard paste and cooked to perfection.",
+        "chefName": "Keka Ferdousi",
+        "image": "https://i.ibb.co/vh4D6pp/illish.jpg",
+        "price": 24.99,
+        "rating": 4.8
+    },
+    {
+        "name": "Kosha Mangsho",
+        "description": "Slow-cooked mutton curry flavored with a blend of spices and served with rice or paratha, a Bengali favorite.",
+        "chefName": "Jahed Ahmed",
+        "image": "https://i.ibb.co/W0h4kHk/koshamango.jpg",
+        "price": 19.99,
+        "rating": 4.6
+    },
+    {
+        "name": "Aloo Posto",
+        "description": "A comforting Bengali dish made with potatoes cooked in a poppy seed paste, mustard oil, and spices.",
+        "chefName": "Alpana Habib",
+        "image": "https://i.ibb.co/NtsbvMw/Bengali-Aloo-Posto.jpg",
+        "price": 15.99,
+        "rating": 4.5
+    },
+    {
+        "name": "Payesh",
+        "description": "A traditional Bengali rice pudding made with rice, milk, sugar, and flavored with cardamom and nuts.",
+        "chefName": "Ahmed Hossain",
+        "image": "https://i.ibb.co/1Mm4BPf/Bangladesh-rice-pudding.jpg",
+        "price": 12.99,
+        "rating": 4.6
+    },
+    {
+        "name": "Biryani",
+        "description": "A fragrant rice dish cooked with tender meat, aromatic spices, and herbs, a popular favorite in Bengali cuisine.",
+        "chefName": "Tony Karim",
+        "image": "https://i.ibb.co/Gsnp0nH/bengali-hyderabadi-biryanis.jpg",
+        "price": 22.99,
+        "rating": 4.9
+    }
+]
