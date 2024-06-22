@@ -3,17 +3,62 @@ import { Link, useLocation, useNavigate } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { AuthContext } from '../../providers/AuthProvider';
 
+import { GithubAuthProvider, GoogleAuthProvider, getAuth, signInWithPopup } from 'firebase/auth';
+import app from '../../Firebase/firebase.config';
+
 
 const Login = () => {
  
     const {signIn} = useContext(AuthContext);
 
+    const auth =getAuth(app);
+
     const navigate = useNavigate();
 
+    
+
+    const googleProvider= new GoogleAuthProvider();
+
+    const githubProvider = new GithubAuthProvider();
+
+    // Google sing in method
+
+    const handleGoogleSign= () =>{
+        signInWithPopup(auth,googleProvider)
+         .then(result => {
+             const user= result.user;
+             console.log(user);
+             navigate('/');
+         })
+         .catch( error =>{
+             console.log('error', error.message);
+         })
+     }
+
+     // github sign in method
+
+    const handleGitHubSign= () =>{
+        signInWithPopup(auth,githubProvider)
+         .then(result => {
+             const User= result.user;
+             console.log(User);
+
+             navigate('/');
+         })
+         .catch( error =>{
+             console.log('error', error.message);
+         })
+     }
+
+     //get logged location
     const location =useLocation();
     console.log("login page location",location);
     const from = location.state?.from?.pathname || '/'
     // const[error, setError] = useState('');
+
+    const [error, setError] = useState('');
+
+    // handle login function
     const handleSignIn = event =>{
         event.preventDefault();
         const form = event.target;
@@ -22,6 +67,7 @@ const Login = () => {
 
         console.log(email,password);
 
+        setError('');
          signIn(email, password)
             .then(result =>{
                 const loggedUser = result.user;
@@ -33,11 +79,16 @@ const Login = () => {
             })
             .catch(error =>{
                 console.log(error);
+                setError(error.message);
                 
             })
 
+            
+
 
     }
+
+    
 
     return (
         <div className='w-[90%] mx-auto'>
@@ -67,13 +118,13 @@ const Login = () => {
                                     <p className='text-center'>Or</p>
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button className="btn btn-outline font-bold">
+                                    <button onClick={handleGoogleSign} className="btn btn-outline font-bold">
                                        <i className="fab fa-google mr-2"></i>
                                         Continue with Google
                                     </button>
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button className="btn btn-outline font-bold">
+                                    <button onClick={handleGitHubSign} className="btn btn-outline font-bold">
                                       <i className="fab fa-github mr-2"></i>
                                        Continue with Github
                                     </button>
@@ -90,6 +141,7 @@ const Login = () => {
 
                             
                             </form>
+                            {error && <p className='text-error'>{error}</p>}
                         </div>
                     </div>
                 </div>

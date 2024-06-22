@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 
 const SignUp = () => {
@@ -7,8 +7,9 @@ const SignUp = () => {
 
     const{ createUser} = useContext(AuthContext);
     const [accepted, setAccepted] =useState(false);
+    const navigate = useNavigate();
 
-    // const[error, setError] = useState('');
+    const[error, setError] = useState('');
 
     const handleSignUp = event =>{
         event.preventDefault();
@@ -21,14 +22,29 @@ const SignUp = () => {
 
         console.log(name,photo,email,password);
 
+        if(password !== confirm){
+            setError('Your password did not match!')
+            return
+     }
+     else if( password.length < 6){
+         setError('Password must be 6 characters or longer')
+         return
+     }
+
+    //  <p className=' text-error'>{error}</p>
+
+     setError('');
+
          createUser(email, password)
             .then(result =>{
                 const createdUser = result.user;
                 console.log(createdUser);
                 form.reset();
+                navigate('/');
             })
             .catch(error =>{
                 console.log(error);
+                setError(error.message);
             })
 
         // if(password !== confirm){
@@ -95,7 +111,7 @@ const SignUp = () => {
                                 </div>
 
                                 <div className="form-control mt-6">
-                                    <button className="btn btn-primary font-bold" disabled={!accepted}>Register</button>
+                                    <button className="btn btn-primary font-bold" disabled={!accepted} >Register</button>
                                 </div>
 
                                 <div className="form-control mt-2">
@@ -109,6 +125,7 @@ const SignUp = () => {
                                     
                                 </div>
                             </form>
+                            {error && <p className='text-error'>{error}</p>}
                         </div>
                     </div>
                 </div>

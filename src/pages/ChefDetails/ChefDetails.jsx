@@ -1,13 +1,24 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { useLoaderData } from 'react-router-dom';
+import { AuthContext } from '../../providers/AuthProvider';
 
 const ChefDetails = () => {
     const data = useLoaderData();
+
+    // loader added
+    // const {loading} =useContext(AuthContext);
+
+   
+    // if (loading){
+
+    //     return <span className="loading loading-spinner text-secondary"></span>
+    // }
+
     // console.log(data)
     const {id,name,experience,recipes,likes,picture,description,recipeDetails} =data
-
+    
 
     // handle favorite button
 

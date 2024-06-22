@@ -13,10 +13,11 @@ const NavBar = () => {
             })
     }
     // console.log(user)
+    
     return (
-        <div className="navbar bg-primary-content ">
+        <div className="navbar bg-violet-200 ">
             <div className="flex-1">
-                <a className="text-orange-500 text-3xl font-bold font-serif">Bengal Flavors</a>
+                <a className="text-rose-700 text-3xl font-bold font-serif">Bengal Flavors</a>
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
@@ -31,8 +32,10 @@ const NavBar = () => {
                     </li>
                    
                     {user && <li>
-                        <span className="font-bold">Welcome, {user.displayName}</span>
-                            
+                        
+                        <span className="font-bold">Welcome {user.displayName} <img src={user.photoURL} alt="img" className='w-1/2' />
+                        </span>
+
                     </li>
                     }
                     { user ?
